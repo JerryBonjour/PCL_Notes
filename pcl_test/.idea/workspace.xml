@@ -12,15 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58f20273-5a9d-46eb-aaa0-57574503c12d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pcl_icp1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pcl_icp1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pcl_icp1/.idea/pcl_icp1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pcl_icp1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pcl_icp1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pcl_icp1/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pcl_icp1/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pcl_icp1/pairwise.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/pairwise.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/pairwise.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
