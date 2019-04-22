@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/catalina/PCL_Notes/pcl_ndt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ccea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ccea.dir/build.make CMakeFiles/cmTC_4ccea.dir/build
+make[1]: Entering directory '/home/catalina/PCL_Notes/pcl_ndt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ccea.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4ccea.dir/CheckSymbolExists.c.o   -c /home/catalina/PCL_Notes/pcl_ndt/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4ccea
+/home/catalina/software/clion-2019.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ccea.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4ccea.dir/CheckSymbolExists.c.o  -o cmTC_4ccea 
+CMakeFiles/cmTC_4ccea.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4ccea.dir/build.make:86: recipe for target 'cmTC_4ccea' failed
+make[1]: *** [cmTC_4ccea] Error 1
+make[1]: Leaving directory '/home/catalina/PCL_Notes/pcl_ndt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4ccea/fast' failed
+make: *** [cmTC_4ccea/fast] Error 2
+
+File /home/catalina/PCL_Notes/pcl_ndt/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/catalina/PCL_Notes/pcl_ndt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f08e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f08e.dir/build.make CMakeFiles/cmTC_2f08e.dir/build
+make[1]: Entering directory '/home/catalina/PCL_Notes/pcl_ndt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f08e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2f08e.dir/CheckFunctionExists.c.o   -c /home/catalina/software/clion-2019.1/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2f08e
+/home/catalina/software/clion-2019.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f08e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2f08e.dir/CheckFunctionExists.c.o  -o cmTC_2f08e -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2f08e.dir/build.make:86: recipe for target 'cmTC_2f08e' failed
+make[1]: *** [cmTC_2f08e] Error 1
+make[1]: Leaving directory '/home/catalina/PCL_Notes/pcl_ndt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_2f08e/fast' failed
+make: *** [cmTC_2f08e/fast] Error 2
+
+

@@ -12,40 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58f20273-5a9d-46eb-aaa0-57574503c12d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pcl_icp1/icp2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pcl_ndt/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pcl_ndt/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pcl_ndt/.idea/pcl_ndt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pcl_ndt/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pcl_ndt/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pcl_ndt/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pcl_ndt/pcl_ndt1.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pcl_icp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pcl_icp1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/pairwise.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/pairwise.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/pcl_icp1" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/pcl_icp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/pcl_icp1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/pcl_icp1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/icp1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_icp1/pairwise.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/pairwise.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_test.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_test.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_test.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_test.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pcd_test.pcd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pcd_test2.pcd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pcl_test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,10 +71,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="258" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="x" value="469" />
+    <option name="y" value="530" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
