@@ -123,32 +123,59 @@ pcl_icp1/fast:
 	$(MAKE) -f CMakeFiles/pcl_icp1.dir/build.make CMakeFiles/pcl_icp1.dir/build
 .PHONY : pcl_icp1/fast
 
-main.o: main.cpp.o
+icp1.o: icp1.cpp.o
 
-.PHONY : main.o
+.PHONY : icp1.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/pcl_icp1.dir/build.make CMakeFiles/pcl_icp1.dir/main.cpp.o
-.PHONY : main.cpp.o
+icp1.cpp.o:
+	$(MAKE) -f CMakeFiles/pcl_icp1.dir/build.make CMakeFiles/pcl_icp1.dir/icp1.cpp.o
+.PHONY : icp1.cpp.o
 
-main.i: main.cpp.i
+icp1.i: icp1.cpp.i
 
-.PHONY : main.i
+.PHONY : icp1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/pcl_icp1.dir/build.make CMakeFiles/pcl_icp1.dir/main.cpp.i
-.PHONY : main.cpp.i
+icp1.cpp.i:
+	$(MAKE) -f CMakeFiles/pcl_icp1.dir/build.make CMakeFiles/pcl_icp1.dir/icp1.cpp.i
+.PHONY : icp1.cpp.i
 
-main.s: main.cpp.s
+icp1.s: icp1.cpp.s
 
-.PHONY : main.s
+.PHONY : icp1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/pcl_icp1.dir/build.make CMakeFiles/pcl_icp1.dir/main.cpp.s
-.PHONY : main.cpp.s
+icp1.cpp.s:
+	$(MAKE) -f CMakeFiles/pcl_icp1.dir/build.make CMakeFiles/pcl_icp1.dir/icp1.cpp.s
+.PHONY : icp1.cpp.s
+
+icp2.o: icp2.cpp.o
+
+.PHONY : icp2.o
+
+# target to build an object file
+icp2.cpp.o:
+	$(MAKE) -f CMakeFiles/pcl_icp1.dir/build.make CMakeFiles/pcl_icp1.dir/icp2.cpp.o
+.PHONY : icp2.cpp.o
+
+icp2.i: icp2.cpp.i
+
+.PHONY : icp2.i
+
+# target to preprocess a source file
+icp2.cpp.i:
+	$(MAKE) -f CMakeFiles/pcl_icp1.dir/build.make CMakeFiles/pcl_icp1.dir/icp2.cpp.i
+.PHONY : icp2.cpp.i
+
+icp2.s: icp2.cpp.s
+
+.PHONY : icp2.s
+
+# target to generate assembly for a file
+icp2.cpp.s:
+	$(MAKE) -f CMakeFiles/pcl_icp1.dir/build.make CMakeFiles/pcl_icp1.dir/icp2.cpp.s
+.PHONY : icp2.cpp.s
 
 pairwise.o: pairwise.cpp.o
 
@@ -186,9 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... pcl_icp1"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... icp1.o"
+	@echo "... icp1.i"
+	@echo "... icp1.s"
+	@echo "... icp2.o"
+	@echo "... icp2.i"
+	@echo "... icp2.s"
 	@echo "... pairwise.o"
 	@echo "... pairwise.i"
 	@echo "... pairwise.s"

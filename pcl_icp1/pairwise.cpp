@@ -1,6 +1,6 @@
 //
 // Created by catalina on 19-4-22.
-//    匹配多副点云
+//    3. 匹配多副点云
 //
 
 #include <boost/make_shared.hpp>
@@ -244,7 +244,7 @@ void pairAlign(const PointCloud::Ptr cloud_src, const PointCloud::Ptr cloud_tgt,
     final_transform  = targetToSource;
 }
 
-
+/*
 int main(int argc, char** argv)
 {
 //    存储管理所有打开的点云
@@ -290,7 +290,7 @@ int main(int argc, char** argv)
 
     }
 
-}
+}*/
 
 
 

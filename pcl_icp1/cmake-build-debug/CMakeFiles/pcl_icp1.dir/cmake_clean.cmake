@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pcl_icp1.dir/main.cpp.o"
+  "CMakeFiles/pcl_icp1.dir/icp1.cpp.o"
   "CMakeFiles/pcl_icp1.dir/pairwise.cpp.o"
+  "CMakeFiles/pcl_icp1.dir/icp2.cpp.o"
   "pcl_icp1.pdb"
   "pcl_icp1"
 )

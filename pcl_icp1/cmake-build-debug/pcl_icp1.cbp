@@ -158,7 +158,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/catalina/PCL_Notes/pcl_icp1/main.cpp">
+		<Unit filename="/home/catalina/PCL_Notes/pcl_icp1/icp1.cpp">
+			<Option target="pcl_icp1"/>
+		</Unit>
+		<Unit filename="/home/catalina/PCL_Notes/pcl_icp1/icp2.cpp">
 			<Option target="pcl_icp1"/>
 		</Unit>
 		<Unit filename="/home/catalina/PCL_Notes/pcl_icp1/pairwise.cpp">

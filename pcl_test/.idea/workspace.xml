@@ -12,8 +12,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58f20273-5a9d-46eb-aaa0-57574503c12d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../pcl_icp1/icp2.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pcl_icp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/pairwise.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/pairwise.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/pcl_icp1" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/pcl_icp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/pcl_icp1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/cmake-build-debug/pcl_icp1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pcl_icp1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/icp1.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pcl_icp1/pairwise.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_icp1/pairwise.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_test.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_test.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_test.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pcd_test.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pcd_test2.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pcl_test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +60,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="46" />
+            <state relative-caret-position="551">
+              <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="547">
-              <caret line="39" lean-forward="true" selection-start-line="38" selection-end-line="42" selection-end-column="5" />
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -128,12 +160,12 @@
       <workItem from="1555778813733" duration="192000" />
       <workItem from="1555779007457" duration="116000" />
       <workItem from="1555779124247" duration="898000" />
-      <workItem from="1555910276811" duration="1620000" />
+      <workItem from="1555910276811" duration="2232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9949000" />
+    <option name="totallyTimeSpent" value="10561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="258" width="1855" height="1084" extended-state="6" />
@@ -168,20 +200,20 @@
     <entry file="file:///usr/local/include/pcl-1.9/pcl/io/pcd_io.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
-          <caret line="39" lean-forward="true" selection-start-line="38" selection-end-line="42" selection-end-column="5" />
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
         </state>
       </provider>
     </entry>

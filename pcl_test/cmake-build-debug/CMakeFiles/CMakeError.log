@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/catalina/PCL_Notes/pcl_test/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b9927/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b9927.dir/build.make CMakeFiles/cmTC_b9927.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1a45f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a45f.dir/build.make CMakeFiles/cmTC_1a45f.dir/build
 make[1]: Entering directory '/home/catalina/PCL_Notes/pcl_test/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b9927.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b9927.dir/CheckSymbolExists.c.o   -c /home/catalina/PCL_Notes/pcl_test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_b9927
-/home/catalina/software/clion-2019.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9927.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b9927.dir/CheckSymbolExists.c.o  -o cmTC_b9927 
-CMakeFiles/cmTC_b9927.dir/CheckSymbolExists.c.o：在函数‘main’中：
+Building C object CMakeFiles/cmTC_1a45f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1a45f.dir/CheckSymbolExists.c.o   -c /home/catalina/PCL_Notes/pcl_test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1a45f
+/home/catalina/software/clion-2019.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a45f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1a45f.dir/CheckSymbolExists.c.o  -o cmTC_1a45f 
+CMakeFiles/cmTC_1a45f.dir/CheckSymbolExists.c.o：在函数‘main’中：
 CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b9927.dir/build.make:86: recipe for target 'cmTC_b9927' failed
-make[1]: *** [cmTC_b9927] Error 1
+CMakeFiles/cmTC_1a45f.dir/build.make:86: recipe for target 'cmTC_1a45f' failed
+make[1]: *** [cmTC_1a45f] Error 1
 make[1]: Leaving directory '/home/catalina/PCL_Notes/pcl_test/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_b9927/fast' failed
-make: *** [cmTC_b9927/fast] Error 2
+Makefile:121: recipe for target 'cmTC_1a45f/fast' failed
+make: *** [cmTC_1a45f/fast] Error 2
 
 File /home/catalina/PCL_Notes/pcl_test/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/catalina/PCL_Notes/pcl_test/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bbc80/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bbc80.dir/build.make CMakeFiles/cmTC_bbc80.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_93cde/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93cde.dir/build.make CMakeFiles/cmTC_93cde.dir/build
 make[1]: Entering directory '/home/catalina/PCL_Notes/pcl_test/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bbc80.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bbc80.dir/CheckFunctionExists.c.o   -c /home/catalina/software/clion-2019.1/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_bbc80
-/home/catalina/software/clion-2019.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbc80.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_bbc80.dir/CheckFunctionExists.c.o  -o cmTC_bbc80 -lpthreads 
+Building C object CMakeFiles/cmTC_93cde.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_93cde.dir/CheckFunctionExists.c.o   -c /home/catalina/software/clion-2019.1/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_93cde
+/home/catalina/software/clion-2019.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93cde.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_93cde.dir/CheckFunctionExists.c.o  -o cmTC_93cde -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_bbc80.dir/build.make:86: recipe for target 'cmTC_bbc80' failed
-make[1]: *** [cmTC_bbc80] Error 1
+CMakeFiles/cmTC_93cde.dir/build.make:86: recipe for target 'cmTC_93cde' failed
+make[1]: *** [cmTC_93cde] Error 1
 make[1]: Leaving directory '/home/catalina/PCL_Notes/pcl_test/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_bbc80/fast' failed
-make: *** [cmTC_bbc80/fast] Error 2
+Makefile:121: recipe for target 'cmTC_93cde/fast' failed
+make: *** [cmTC_93cde/fast] Error 2
 
 

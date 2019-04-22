@@ -16,7 +16,7 @@ int main() {
      * 1.向pcd文件中写入点云数据
      *  熟悉pointcloud的数据结构
      */
-   /* pcl::PointCloud<pcl::PointXYZ> cloud;
+    pcl::PointCloud<pcl::PointXYZ> cloud;
     //创建点云并设置参数
     cloud.width = 50;
     cloud.height = 10;
@@ -42,7 +42,7 @@ int main() {
 
     }
 
-    return 0;*/
+    return 0;
 
     /**
      * 2.点云显示
@@ -91,6 +91,7 @@ int main() {
      * 3.从PCD文件中读取点云
      */
 
+/*
     typedef pcl::PointXYZRGB PointT;
     pcl::PointCloud<PointT>::Ptr cloud (new pcl::PointCloud<PointT>);
 
@@ -112,4 +113,5 @@ int main() {
     while (!viewer.wasStopped())
     viewer.spinOnce(100);
     return 0;
+*/
 }
