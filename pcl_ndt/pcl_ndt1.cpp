@@ -14,23 +14,23 @@ int main() {
 
     //加载目标点云
     pcl::PointCloud<pcl::PointXYZ>::Ptr target_cloud (new pcl::PointCloud<pcl::PointXYZ>);//共享指针
-    if (pcl::io::loadPCDFile<pcl::PointXYZ>("xx.pcd", *target_cloud) == -1)
+    if (pcl::io::loadPCDFile<pcl::PointXYZ>("room_scan1.pcd", *target_cloud) == -1)
     {
-        PCL_ERROR("could not read file xx.pcd");
+        PCL_ERROR("could not read file room_scan1.pcd");
         return -1;
     }
 
-    std::cout << "loaded " << target_cloud->size() << " data points from xx.pcd"<<endl;
+    std::cout << "loaded " << target_cloud->size() << " data points from room_scan1.pcd"<<endl;
 
 //    加载源点云
     pcl::PointCloud<pcl::PointXYZ>::Ptr input_cloud (new pcl::PointCloud<pcl::PointXYZ>);
-    if (pcl::io::loadPCDFile<pcl::PointXYZ>("xx.pcd", *input_cloud) == -1)
+    if (pcl::io::loadPCDFile<pcl::PointXYZ>("room_scan2.pcd", *input_cloud) == -1)
     {
-        PCL_ERROR("could not read file xx.pcd");
+        PCL_ERROR("could not read file room_scan2.pcd");
         return -1;
     }
 
-    std::cout << "loaded " << input_cloud->size() << " data points from xx.pcd"<<endl;
+    std::cout << "loaded " << input_cloud->size() << " data points from room_scan2.pcd"<<endl;
 
 //    后续配准是完成对源点云到目标点云的参考坐标系的变换矩阵的估计
     pcl::PointCloud<pcl::PointXYZ>::Ptr filter_cloud(new pcl::PointCloud<pcl::PointXYZ>);
@@ -39,7 +39,7 @@ int main() {
     approximate_voxel_filter.setInputCloud(input_cloud);
     approximate_voxel_filter.filter(*filter_cloud);
 
-    std::cout << "filter cloud contains  " << filter_cloud->size() << " data points from xx.pcd"<<endl;
+    std::cout << "filter cloud contains  " << filter_cloud->size() << " data points from room_scan2.pcd"<<endl;
 
 // 初始化NDT对象及参数
     pcl::NormalDistributionsTransform<pcl::PointXYZ, pcl::PointXYZ> ndt;
@@ -66,7 +66,7 @@ int main() {
     pcl::transformPointCloud(*input_cloud, *output_cloud, ndt.getFinalTransformation());
 
 //    保存转换后的源点云作为最终的变换输出
-    pcl::io::savePCDFileASCII("xx.pcd", *output_cloud);
+    pcl::io::savePCDFileASCII("room_scan_output.pcd", *output_cloud);
 
 //    初始化点云可视化对象
     boost::shared_ptr<pcl::visualization::PCLVisualizer> viewer_final (new pcl::visualization::PCLVisualizer ("3D Viewer"));

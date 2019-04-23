@@ -32,6 +32,23 @@ int main() {
     pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_target (new pcl::PointCloud<pcl::PointXYZ>);
     pcl::PointCloud<pcl::PointXYZ>::Ptr Final (new pcl::PointCloud<pcl::PointXYZ>);////存储经过配准变换的点云
 
+//    读取点云文件
+    if (pcl::io::loadPCDFile<pcl::PointXYZ>("rabbit.pcd", *cloud_in) == -1)
+    {
+        PCL_ERROR("could not read file rabbit.pcd");
+        return -1;
+    }
+    std::cout << "loaded " << cloud_in->size() << " data points from rabbit.pcd"<<endl;
+
+    if (pcl::io::loadPCDFile<pcl::PointXYZ>("rabbit_t.pcd", *cloud_target) == -1)
+    {
+        PCL_ERROR("could not read file rabbit_t.pcd");
+        return -1;
+    }
+
+    std::cout << "loaded " << cloud_target->size() << " data points from rabbit_t.pcd"<<endl;
+
+
     //  点云配准
     pcl::IterativeClosestPoint<pcl::PointXYZ, pcl::PointXYZ> icp;
     icp.setInputCloud(cloud_in); //输入源点云

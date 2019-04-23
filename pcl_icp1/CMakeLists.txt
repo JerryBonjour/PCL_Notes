@@ -10,4 +10,4 @@ add_definitions(${PCL_DEFINITIONS})
 
 
 add_executable(pcl_icp1 icp1.cpp pairwise.cpp icp2.cpp)
-ini
+target_link_libraries(pcl_icp1 ${PCL_LIBRARIES})
