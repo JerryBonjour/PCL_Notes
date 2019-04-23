@@ -9,5 +9,5 @@ link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
 
-add_executable(pcl_icp1 icp1.cpp pairwise.cpp icp2.cpp)
+add_executable(pcl_icp1 icp1.cpp pairwise.cpp icp2.cpp icp3.cpp)
 target_link_libraries(pcl_icp1 ${PCL_LIBRARIES})

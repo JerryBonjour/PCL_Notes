@@ -164,6 +164,9 @@
 		<Unit filename="/home/catalina/PCL_Notes/pcl_icp1/icp2.cpp">
 			<Option target="pcl_icp1"/>
 		</Unit>
+		<Unit filename="/home/catalina/PCL_Notes/pcl_icp1/icp3.cpp">
+			<Option target="pcl_icp1"/>
+		</Unit>
 		<Unit filename="/home/catalina/PCL_Notes/pcl_icp1/pairwise.cpp">
 			<Option target="pcl_icp1"/>
 		</Unit>

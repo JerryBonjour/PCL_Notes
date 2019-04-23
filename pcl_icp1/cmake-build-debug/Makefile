@@ -177,6 +177,33 @@ icp2.cpp.s:
 	$(MAKE) -f CMakeFiles/pcl_icp1.dir/build.make CMakeFiles/pcl_icp1.dir/icp2.cpp.s
 .PHONY : icp2.cpp.s
 
+icp3.o: icp3.cpp.o
+
+.PHONY : icp3.o
+
+# target to build an object file
+icp3.cpp.o:
+	$(MAKE) -f CMakeFiles/pcl_icp1.dir/build.make CMakeFiles/pcl_icp1.dir/icp3.cpp.o
+.PHONY : icp3.cpp.o
+
+icp3.i: icp3.cpp.i
+
+.PHONY : icp3.i
+
+# target to preprocess a source file
+icp3.cpp.i:
+	$(MAKE) -f CMakeFiles/pcl_icp1.dir/build.make CMakeFiles/pcl_icp1.dir/icp3.cpp.i
+.PHONY : icp3.cpp.i
+
+icp3.s: icp3.cpp.s
+
+.PHONY : icp3.s
+
+# target to generate assembly for a file
+icp3.cpp.s:
+	$(MAKE) -f CMakeFiles/pcl_icp1.dir/build.make CMakeFiles/pcl_icp1.dir/icp3.cpp.s
+.PHONY : icp3.cpp.s
+
 pairwise.o: pairwise.cpp.o
 
 .PHONY : pairwise.o
@@ -219,6 +246,9 @@ help:
 	@echo "... icp2.o"
 	@echo "... icp2.i"
 	@echo "... icp2.s"
+	@echo "... icp3.o"
+	@echo "... icp3.i"
+	@echo "... icp3.s"
 	@echo "... pairwise.o"
 	@echo "... pairwise.i"
 	@echo "... pairwise.s"

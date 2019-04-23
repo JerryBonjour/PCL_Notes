@@ -13,10 +13,12 @@
 #include <boost/thread/thread.hpp>
 
 /**
- * 按下空格则执行icp计算
+ * 按下空格则执行icp计算  迭代更新页面
  * @param event
  * @param nothing
  */
+
+/*
 bool next_iteration = false;//键盘交互函数
 void keyboardEvent(const pcl::visualization::KeyboardEvent &event, void * nothing)
 {
@@ -103,5 +105,5 @@ int main() {
         }
         next_iteration = false;
     }
-}
+}*/
 
