@@ -12,37 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="015ddb46-bfd3-4b55-bebe-93306d106c99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/icp3.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/icp2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/icp2.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcl_icp1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pcl_icp1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pcl_icp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pcl_icp1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pcl_icp1.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/icp2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/icp2.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pcl_ndt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ndt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/pcl_ndt.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/pcl_ndt.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/pcl_ndt.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/pcl_ndt.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/pcl_ndt.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/pcl_ndt.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/pcl_ndt.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/pcl_ndt.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/pcl_ndt.dir/pcl_ndt1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/pcl_ndt.dir/pcl_ndt1.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/pcl_ndt.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/pcl_ndt.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/pcl_ndt" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/pcl_ndt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/pcl_ndt.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ndt/cmake-build-debug/pcl_ndt.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pcl_ndt/pcl_ndt1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ndt/pcl_ndt1.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pcl_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_test/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -71,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/icp1.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
+            <state relative-caret-position="-29">
               <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -83,22 +58,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/icp2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pairwise.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1178">
-              <caret line="113" column="35" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="35" />
+            <state relative-caret-position="693">
+              <caret line="106" column="3" selection-start-line="20" selection-end-line="106" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pairwise.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="245" selection-start-line="141" selection-end-line="245" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/icp3.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
@@ -136,16 +111,16 @@
         <option value="$PROJECT_DIR$/icp1.cpp" />
         <option value="$PROJECT_DIR$/pairwise.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/icp2.cpp" />
         <option value="$PROJECT_DIR$/icp3.cpp" />
+        <option value="$PROJECT_DIR$/icp2.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1985" />
+    <option name="x" value="2808" />
     <option name="y" value="-4" />
-    <option name="width" value="2495" />
-    <option name="height" value="1444" />
+    <option name="width" value="1391" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -205,18 +180,18 @@
       <updated>1555910402008</updated>
       <workItem from="1555910403225" duration="25422000" />
       <workItem from="1555986389645" duration="2694000" />
-      <workItem from="1556023900891" duration="5945000" />
+      <workItem from="1556023900891" duration="7883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34061000" />
+    <option name="totallyTimeSpent" value="35999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="2495" height="1444" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14303228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14303228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -228,7 +203,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.2455224" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.330597" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.330597" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.22014925" />
@@ -276,13 +251,6 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/pcl_icp1.cbp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pairwise.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1178">
-          <caret line="113" column="35" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/icp3.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -297,9 +265,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/icp3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="126" column="15" lean-forward="true" selection-start-line="126" selection-start-column="15" selection-end-line="126" selection-end-column="15" />
+          <folding>
+            <element signature="e#54#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/icp1.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
+        <state relative-caret-position="-29">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -309,18 +287,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/icp2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        <state relative-caret-position="693">
+          <caret line="106" column="3" selection-start-line="20" selection-end-line="106" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/icp3.cpp">
+    <entry file="file://$PROJECT_DIR$/pairwise.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="126" column="15" lean-forward="true" selection-start-line="126" selection-start-column="15" selection-end-line="126" selection-end-column="15" />
-          <folding>
-            <element signature="e#54#73#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="245" selection-start-line="141" selection-end-line="245" />
         </state>
       </provider>
     </entry>

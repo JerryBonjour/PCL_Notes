@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/catalina/example_ws/devel/include",
+        "/opt/ros/kinetic/include",
+        "/home/catalina/pcl_ws/src/pcl_test/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}

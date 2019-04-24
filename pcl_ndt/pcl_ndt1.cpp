@@ -33,6 +33,10 @@ int main() {
     std::cout << "loaded " << input_cloud->size() << " data points from room_scan2.pcd"<<endl;
 
 //    后续配准是完成对源点云到目标点云的参考坐标系的变换矩阵的估计
+/*
+ * 过滤输入点云到原始尺寸的10%提高匹配速度
+ * 在NDT算法中，目标点云对应的体素网格数据结构的的统计计算不使用单个点，而是使用包含在每个体素网格中的点的统计数据
+ * */
     pcl::PointCloud<pcl::PointXYZ>::Ptr filter_cloud(new pcl::PointCloud<pcl::PointXYZ>);
     pcl::ApproximateVoxelGrid<pcl::PointXYZ> approximate_voxel_filter;
     approximate_voxel_filter.setLeafSize(0.2, 0.2, 0.2);
@@ -64,7 +68,6 @@ int main() {
 
 //    使用创建的变换对为过滤的输入点云进行变换
     pcl::transformPointCloud(*input_cloud, *output_cloud, ndt.getFinalTransformation());
-
 //    保存转换后的源点云作为最终的变换输出
     pcl::io::savePCDFileASCII("room_scan_output.pcd", *output_cloud);
 
@@ -82,7 +85,7 @@ int main() {
     viewer_final->setPointCloudRenderingProperties(pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 1, "output_cloud");
 
 //启动可视化
-    viewer_final->addCoordinateSystem(1.0);//显示xyz指示轴
+    viewer_final->addCoordinateSystem(1.0, "global");//显示xyz指示轴
     viewer_final->initCameraParameters();//显示摄像头初始化参数
 
     while(!viewer_final->wasStopped())

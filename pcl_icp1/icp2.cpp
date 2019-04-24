@@ -18,8 +18,7 @@
  * @param nothing
  */
 
-/*
-bool next_iteration = false;//键盘交互函数
+/*bool next_iteration = false;//键盘交互函数
 void keyboardEvent(const pcl::visualization::KeyboardEvent &event, void * nothing)
 {
     if(event.getKeySym() == "space" && event.keyDown())
