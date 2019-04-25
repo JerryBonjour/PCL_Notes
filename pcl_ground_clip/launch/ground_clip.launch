@@ -1,0 +1,3 @@
+<launch>
+    <node pkg = "pcl_ground_clip" type = "pcl_ground_clip_node" name = "pcl_ground_clip_node" output="screen"/>
+</launch>
