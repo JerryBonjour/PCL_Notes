@@ -1,3 +1,3 @@
 # pcl_ground_clip
-现点云地面切割。
+ray filter点云地面切割,ros实现。
 
