@@ -1,4 +1,4 @@
-/home/catalina/software/clion-2019.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/catalina/pcl_ws/src/pcl_ground_clip2
+/home/catalina/software/clion-2019.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/catalina/PCL_Notes/pcl_ground_clip2
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -31,4 +31,4 @@ CMake Error at CMakeLists.txt:6 (find_package):
 
 
 -- Configuring incomplete, errors occurred!
-See also "/home/catalina/pcl_ws/src/pcl_ground_clip2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/catalina/PCL_Notes/pcl_ground_clip2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
