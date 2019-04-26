@@ -1,5 +1,5 @@
 /**
- * 1.正态分布点云配准
+ * 正态分布点云配准
  */
 #include <iostream>
 #include <pcl/io/pcd_io.h>
