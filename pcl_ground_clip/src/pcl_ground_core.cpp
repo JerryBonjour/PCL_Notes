@@ -21,13 +21,13 @@ void PclGroundCore::point_cb(const sensor_msgs::PointCloud2ConstPtr &in_cloud_pt
     pcl::PointCloud<pcl::PointXYZI>::Ptr cliped_pc_ptr(new pcl::PointCloud<pcl::PointXYZI>);
 
     pcl::fromROSMsg(*in_cloud_ptr, *current_pc_ptr);
-//裁剪
+//  裁剪
     clip_above(CLIP_HEIGHT, current_pc_ptr, cliped_pc_ptr);
 //    过滤近距离
     pcl::PointCloud<pcl::PointXYZI>::Ptr remove_close(new pcl::PointCloud<pcl::PointXYZI>);
     remove_close_pt(MIN_DISTANCE, cliped_pc_ptr, remove_close);
 
-//    重新组织点云
+//   重新组织点云
     PointCloudXYZIRTColor organized_points;
     std::vector<pcl::PointIndices> radial_division_indices; //射线索引
     std::vector<pcl::PointIndices> closest_indices;
@@ -39,7 +39,7 @@ void PclGroundCore::point_cb(const sensor_msgs::PointCloud2ConstPtr &in_cloud_pt
                      radial_division_indices, radial_ordered_clouds);
 
     pcl::PointIndices ground_indices, no_ground_indices;
-//地面点分类
+//  地面点分类
     classify_pc(radial_ordered_clouds, ground_indices, no_ground_indices);
 
     pcl::PointCloud<pcl::PointXYZI>::Ptr ground_cloud_ptr(new pcl::PointCloud<pcl::PointXYZI>);

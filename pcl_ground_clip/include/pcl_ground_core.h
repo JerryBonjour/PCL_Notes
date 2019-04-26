@@ -60,18 +60,18 @@ private:
 
 //  点云裁剪
     void clip_above(double clip_height, const pcl::PointCloud<pcl::PointXYZI>::Ptr in, const pcl::PointCloud<pcl::PointXYZI>::Ptr out);
-//过滤近点的点云
+//  过滤近点的点云
     void remove_close_pt(double min_distance, const pcl::PointCloud<pcl::PointXYZI>::Ptr in, const pcl::PointCloud<pcl::PointXYZI>::Ptr out);
 
     void XYZI_to_RTZColor(const pcl::PointCloud<pcl::PointXYZI>::Ptr in_cloud,
                           PointCloudXYZIRTColor &out_organized_points,
                           std::vector<pcl::PointIndices> &out_radial_divided_indices,
                           std::vector<PointCloudXYZIRTColor> &out_radial_ordered_clouds);
-//判断是否为地面点
+//  判断是否为地面点
     void classify_pc(std::vector<PointCloudXYZIRTColor> &in_radial_ordered_clouds,
                      pcl::PointIndices &out_ground_indices,
                      pcl::PointIndices &out_no_ground_indices);
-
+//  重新发布话题
     void publish_cloud(const ros::Publisher &in_publisher,
                        const pcl::PointCloud<pcl::PointXYZI>::Ptr in_cloud_to_publish_ptr,
                        const std_msgs::Header &in_header);
