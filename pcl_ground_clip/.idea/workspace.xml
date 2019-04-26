@@ -10,14 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a1ba6e7-62a5-44ae-865d-c2e22d5c8646" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/pcl_ground_core.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/pcl_ground_core.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pcl_ground_core.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/pcl_ground_core.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_ground_clip2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ground_clip2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pcl_ground_clip2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ground_clip2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_ground_clip2/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ground_clip2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_ground_clip2/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ground_clip2/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_ground_clip2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_ground_clip2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -175,7 +168,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pcl_icp1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -217,16 +210,15 @@
       <workItem from="1556128593901" duration="2769000" />
       <workItem from="1556164262717" duration="4912000" />
       <workItem from="1556177362216" duration="8000" />
-      <workItem from="1556255170202" duration="384000" />
+      <workItem from="1556255170202" duration="655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27884000" />
+    <option name="totallyTimeSpent" value="28155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="2495" height="1444" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19697589" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

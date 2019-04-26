@@ -1,3 +1,0 @@
-/home/catalina/PCL_Notes/pcl_icp1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/catalina/PCL_Notes/pcl_icp1/cmake-build-debug/CMakeFiles/pcl_icp1.dir
-/home/catalina/PCL_Notes/pcl_icp1/cmake-build-debug/CMakeFiles/edit_cache.dir
